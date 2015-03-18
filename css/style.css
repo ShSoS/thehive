@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+
+* {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.landing_page {
+	height: 100%;
+	padding: 0;
+}
+
+.logo_text {
+	background-image: url('../img/diamond.png');
+	color: white;
+}
+
+.logo_title {
+	font-size: 50px;
+	padding-top: 20px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.logo_details {
+	font-size: 40px;
+	padding-bottom: 40px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.logo_details span {
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.choose_template {
+	padding: 0;
+}
+
+.imac_frame {
+	width: 100%;
+	padding-top: 40px;
+}
+
+.choose_slider, .choose_video {
+	width: 385px;
+	height: 215px;
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 56px;
+	cursor: pointer;
+}
+
+.choose_video video{
+	margin-left: -3px;
+	width: 390px;
+	height: 217px;
+}
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#slider ul li img{
+	width: 385px;
+	height: 215px;
+}
+
+.slider_mini_overlay,
+.video_mini_overlay {
+	position: absolute;
+	width: 386px;
+	height: 216px;
+	background-color: rgba(89, 89, 89, 0.58);
+	margin-left: -1px;
+	display: none;
+	padding-top: 80px;
+}
+
+.slider_mini_overlay a,
+.video_mini_overlay a {
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+
+.slider_mini_overlay span,
+.video_mini_overlay span {
+	font-size: 50px;
+}
+
+#slider_main {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#slider_main ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider_main ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#slider_main ul li img{
+	width: 100vw;
+	height: 100vh;
+}
+
+.slider_header {
+	padding-right: 0px;
+	padding-left: 0px;
+	
+	
+}
+
+.arrow_down {
+	position: absolute;
+	margin-top: 40%;
+	font-size: 40px;
+	color: white;
+	cursor: pointer;
+}
+
+.video_header {
+	height: 100vh;
+	width: 100vw;
+}
+
+.video_header video{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	background-size: cover;
+}

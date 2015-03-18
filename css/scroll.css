@@ -1,0 +1,19 @@
+nav, .about_text {
+	display: none;
+}
+
+.about_iphone_frame {
+	margin-left: -250%;
+} 
+
+.services_details_mockup {
+	display: none;
+} 
+
+.services_details_col_left_1, .services_details_col_left_2, .services_details_col_left_3 {
+	margin-left: -1000px;
+}
+
+.services_details_col_right_1, .services_details_col_right_2, .services_details_col_right_3 {
+	margin-left: 1000px;
+}
